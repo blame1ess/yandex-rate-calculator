@@ -1,5 +1,5 @@
 import openpyxl
-wb = openpyxl.reader.excel.load_workbook(filename="Massfix.xlsx")
+wb = openpyxl.reader.excel.load_workbook(filename="sample_data.xlsx")
 wb.active = 0
 sheet = wb.active
 
